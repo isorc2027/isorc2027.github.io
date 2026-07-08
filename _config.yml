@@ -28,7 +28,7 @@ kramdown:
   hard_wrap: false
 
 permalink: pretty
-strict_front_matter: true
+strict_front_matter: false
 
 exclude:
   - README.md
