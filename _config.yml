@@ -3,7 +3,7 @@ long_title: "30th IEEE International Symposium on Real-Time Distributed Computin
 tagline: "Real-Time Distributed Computing for Intelligent, Connected, and Dependable Systems"
 description: "Official website for the 30th IEEE International Symposium on Real-Time Distributed Computing (ISORC 2027), hosted by IIT Ropar, India, April 2–4, 2027."
 url: https://isorc2027.github.io
-baseurl: 
+baseurl: "/isorc2027"
 
 
 lang: "en"
