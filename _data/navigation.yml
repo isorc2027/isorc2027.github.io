@@ -6,8 +6,8 @@
   url: "/program/"
 - label: "Call for Papers"
   url: "/call-for-papers/"
-- label: "Talks"
-  url: "/talks/"
+- label: "Previous Archives"
+  url: "/previous-archives/"
 - label: "Organization"
   url: "/organization/"
 - label: "Submission"
@@ -16,3 +16,5 @@
   url: "/venue/"
 - label: "Important Dates"
   url: "/important-dates/"
+
+
