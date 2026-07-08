@@ -1,0 +1,17 @@
+- title: "Research Track"
+  description: "Original research contributions on real-time distributed systems, architectures, algorithms, middleware, platforms, and evaluation."
+
+- title: "Industry & Practitioner Track"
+  description: "Practical reports, industrial deployments, lessons learned, tools, and validated systems in real-world settings."
+
+- title: "Posters & Demos"
+  description: "Interactive presentations of early-stage results, prototypes, tools, datasets, and demonstrable systems."
+
+- title: "Doctoral Symposium"
+  description: "Mentoring-focused venue for PhD researchers working on emerging problems in real-time distributed computing."
+
+- title: "Dissertation Digest"
+  description: "Concise presentation of recently completed dissertations relevant to ISORC's technical scope."
+
+- title: "Workshops, Tutorials & Panels"
+  description: "Community sessions on focused research themes, emerging practices, education, and open technical debates."
