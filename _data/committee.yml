@@ -2,48 +2,32 @@ roles:
   - title: "General Chairs"
     members:
       - name: "Coming Soon"
-        affiliation: "Affiliation to be announced"
-      - name: "Coming Soon"
-        affiliation: "Affiliation to be announced"
+        affiliation: "To be announced"
 
   - title: "Program Chairs"
     members:
       - name: "Coming Soon"
-        affiliation: "Affiliation to be announced"
-      - name: "Coming Soon"
-        affiliation: "Affiliation to be announced"
+        affiliation: "To be announced"
 
   - title: "Local Organizing Chair"
     members:
-      - name: "Dr. Nitin Auluck"
-        affiliation: "IIT Ropar"
+      - name: "Coming Soon"
+        affiliation: "To be announced"
 
   - title: "Publicity Chairs"
     members:
       - name: "Coming Soon"
-        affiliation: "Affiliation to be announced"
+        affiliation: "To be announced"
 
   - title: "Publication Chairs"
     members:
       - name: "Coming Soon"
-        affiliation: "Affiliation to be announced"
+        affiliation: "To be announced"
 
   - title: "Web Chair"
     members:
       - name: "Coming Soon"
-        affiliation: "IIT Ropar"
-
-program_committee:
-  - name: "Coming Soon"
-    affiliation: "Affiliation to be announced"
-  - name: "Coming Soon"
-    affiliation: "Affiliation to be announced"
-  - name: "Coming Soon"
-    affiliation: "Affiliation to be announced"
-  - name: "Coming Soon"
-    affiliation: "Affiliation to be announced"
-  - name: "Coming Soon"
-    affiliation: "Affiliation to be announced"
+        affiliation: "To be announced"
 
 host:
   department: "Department of Computer Science and Engineering"
