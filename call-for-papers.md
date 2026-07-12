@@ -77,9 +77,9 @@ permalink: /call-for-papers/
       {% endfor %}
     </ul>
 
-    <p class="notice-card" style="margin-top:2rem;">
-      <strong>Note:</strong> {{ site.data.topics.note }}
-    </p>
+   <p class="notice-card" style="margin-top:2rem;">
+  <strong>Note:</strong> Papers addressing AI/ML, IoT, or general distributed systems topics without an explicit real-time, timing, or embedded dimension are outside ISORC's scope.
+</p>
   </div>
 </section>
 
