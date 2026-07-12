@@ -62,27 +62,24 @@ permalink: /call-for-papers/
 </section>
 
 <section class="section section--soft" aria-labelledby="topics-title">
-  <div class="container section__grid">
-    <article class="prose">
+  <div class="container">
+    <div class="section__header">
       <p class="eyebrow">Topics of Interest</p>
-      <h2 id="topics-title">Research Scope</h2>
-      <p>Topics include, but are not limited to, the following areas:</p>
-      <ul class="topic-list">
-        {% for topic in site.data.topics %}
+      <h2 id="topics-title">Topics</h2>
+      <p>IEEE ISORC 2027 invites papers on all aspects of real-time distributed computing technology, including, but not limited to:</p>
+    </div>
+
+    <ul class="topic-list">
+      {% for topic in site.data.topics %}
+        {% if topic.title %}
         <li><strong>{{ topic.title }}:</strong> {{ topic.description }}</li>
+        {% endif %}
+      {% endfor %}
+    </ul>
 
-        {% endfor %}
-      </ul>
-    </article>
-
-    <aside class="notice-card" aria-labelledby="cfp-status-title">
-      <h2 id="cfp-status-title">CFP Status</h2>
-      <p>The official ISORC 2027 CFP PDF and submission portal will be published after approval by the organizing committee.</p>
-      {% if site.conference.cfp_available %}
-        <a class="button button--ghost" href="{{ site.conference.cfp_pdf | relative_url }}" target="_blank" rel="noopener">Download CFP PDF</a>
-      {% else %}
-        <p class="status-pill status-pill--muted">To be announced</p>
-      {% endif %}
-    </aside>
+    <p class="notice-card" style="margin-top:2rem;">
+      <strong>Note:</strong> {{ site.data.topics.note }}
+    </p>
   </div>
 </section>
+
