@@ -86,46 +86,6 @@ description: Official home page for ISORC 2027 at IIT Ropar, India.
   </div>
 </section>
 
-<section class="section section--soft" aria-labelledby="themes-title">
-  <div class="container">
-    <div class="section__header">
-      <p class="eyebrow">Technical Scope</p>
-      <h2 id="themes-title">Research themes</h2>
-      <p>ISORC 2027 will provide a high-quality venue for systems research with strong theoretical foundations, validated prototypes, industrial case studies, and reproducible evaluation.</p>
-    </div>
 
-    <div class="card-grid card-grid--four">
-      <article class="theme-card">
-        <span class="theme-card__icon" aria-hidden="true">01</span>
-        <h3>Real-Time Systems</h3>
-        <p>Scheduling, timing analysis, deterministic execution, real-time kernels, middleware, and verification.</p>
-      </article>
-      <article class="theme-card">
-        <span class="theme-card__icon" aria-hidden="true">02</span>
-        <h3>Distributed Computing</h3>
-        <p>Reliable, scalable, and dependable architectures for networked and service-oriented systems.</p>
-      </article>
-      <article class="theme-card">
-        <span class="theme-card__icon" aria-hidden="true">03</span>
-        <h3>IoT, Edge, and CPS</h3>
-        <p>Cyber-physical platforms, sensor networks, edge AI, robotics, smart infrastructure, and industrial systems.</p>
-      </article>
-      <article class="theme-card">
-        <span class="theme-card__icon" aria-hidden="true">04</span>
-        <h3>Dependability & Security</h3>
-        <p>Fault tolerance, resilience, safety, security, observability, and assurance for critical distributed systems.</p>
-      </article>
-    </div>
-  </div>
-</section>
 
-<section class="section" aria-labelledby="dates-preview-title">
-  <div class="container callout">
-    <div>
-      <p class="eyebrow">Important Dates</p>
-      <h2 id="dates-preview-title">Mark the conference dates</h2>
-      <p>Paper submission, notification, and camera-ready deadlines will be announced after the final organizing committee approval.</p>
-    </div>
-    <a class="button button--primary" href="{{ '/important-dates/' | relative_url }}">View Important Dates</a>
-  </div>
-</section>
+
