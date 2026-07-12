@@ -1,10 +1,43 @@
-- "Hardware and software architectures for real-time distributed computing"
-- "Object-, component-, microservice-, and service-oriented real-time systems"
-- "Distributed real-time communication, protocols, middleware, and time-sensitive networking"
-- "Cyber-physical systems, IoT, edge, fog, and cloud-edge continuum platforms"
-- "Real-time operating systems, virtualization, containerization, orchestration, and resource management"
-- "Scheduling, synchronization, timing analysis, QoS management, and performance engineering"
-- "Dependability, fault tolerance, resilience, safety, security, and formal verification"
-- "Real-time analytics, stream processing, digital twins, federated learning, TinyML, and edge AI"
-- "System evaluation, benchmarking, observability, field studies, and reproducible experimentation"
-- "Applications in transportation, aerospace, medical devices, Industry 4.0, smart grids, robotics, and autonomous systems"
+- title: "Real-Time and Embedded System Architectures"
+  description: "Hardware/software co-design, real-time operating systems, hypervisors for RT, time-predictable processors and memory, microcontroller and SoC platforms."
+
+- title: "AI/ML on the Edge"
+  description: "TinyML scheduling, neural network inference WCET analysis, LLM inference on constrained hardware, RT-aware model compression, edge AI hardware (NPUs, GPUs) with determinism requirements."
+
+- title: "Medical IoT and Healthcare Embedded Systems"
+  description: "Real-time sensor fusion in medical devices, closed-loop control, wearable/implantable RT constraints, FDA/CE mark timing requirements, RT telemedicine."
+
+- title: "Autonomous and Safety-Critical Systems"
+  description: "Autonomous vehicles and UAVs, RT perception and decision-making, ISO 26262 and DO-178C software timing, RT robotics."
+
+- title: "Real-Time Communications and Networking"
+  description: "5G/6G Ultra-Reliable Low Latency Communications (URLLC), Time-Sensitive Networking (TSN), deterministic networking, V2X/C-V2X, RT protocols and QoS."
+
+- title: "Distributed Real-Time Computing Infrastructures"
+  description: "RT cloud/edge/fog computing, RT containerization and orchestration, distributed RT middleware, digital twins with RT data pipelines."
+
+- title: "Scheduling, Resource Management, and Timing Analysis"
+  description: "Static and dynamic scheduling, WCET analysis, mixed-criticality systems, RT task models, energy-aware RT scheduling."
+
+- title: "Dependability, Fault Tolerance, and Resilience"
+  description: "Fault detection and recovery in RT systems, redundancy and failover, formal verification, RT DevOps/CI-CD, cybersecurity for RT embedded systems."
+
+- title: "Real-Time AI Certification and Formal Verification"
+  description: "Timing verification of ML components, formal methods for neural network safety, certification workflows for RT AI in safety-critical systems."
+
+- title: "Sustainable and Green Real-Time Computing"
+  description: "Energy-aware scheduling, DVFS, power-constrained embedded systems, carbon-aware RT infrastructure."
+
+- title: "Industry 4.0, Smart Manufacturing, and Cyber-Physical Systems"
+  description: "RT industrial control, cyber-physical systems, industrial IoT, RT SCADA, digital factories."
+
+- title: "Operating Systems, Middleware, and System Software"
+  description: "RT kernels (Linux RT, Zephyr, FreeRTOS), RTOS for multicore, middleware for distributed RT (DDS, ROS 2), RT hypervisors."
+
+- title: "Real-Time Analytics and Stream Processing"
+  description: "Complex event processing, RT time-series analysis, online ML with latency constraints, stream correlation."
+
+- title: "Case Studies and Industrial Applications"
+  description: "Empirical studies, deployment reports, and industrial experiences — all must place real-time constraints at the center of the contribution."
+
+note: "Papers addressing AI/ML, IoT, or general distributed systems topics without an explicit real-time, timing, or embedded dimension are outside ISORC's scope."
