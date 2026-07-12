@@ -69,7 +69,8 @@ permalink: /call-for-papers/
       <p>Topics include, but are not limited to, the following areas:</p>
       <ul class="topic-list">
         {% for topic in site.data.topics %}
-        <li>{{ topic }}</li>
+        <li><strong>{{ topic.title }}:</strong> {{ topic.description }}</li>
+
         {% endfor %}
       </ul>
     </article>
