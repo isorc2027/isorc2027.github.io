@@ -40,26 +40,7 @@ permalink: /call-for-papers/
   </div>
 </section>
 
-<section class="section" aria-labelledby="track-types-title">
-  <div class="container section__grid">
-    <article class="prose">
-      <p class="eyebrow">Track Details</p>
-      <h2 id="track-types-title">Submission tracks</h2>
-      <p>ISORC 2027 will include the following submission tracks, each with dedicated review and presentation formats.</p>
-      <ul class="topic-list">
-        <li><strong>Research Track:</strong> Full papers reporting novel contributions, system design, evaluation, or theory in real-time distributed computing.</li>
-        <li><strong>Poster Track:</strong> Work-in-progress reports, emerging ideas, demos, and early-stage research discussions.</li>
-        <li><strong>Doctoral Symposium & Dissertation Digests:</strong> PhD research summaries, dissertation digests, and early-career investigator presentations.</li>
-      </ul>
-    </article>
 
-    <aside class="notice-card" aria-labelledby="camera-ready-title">
-      <h2 id="camera-ready-title">Camera Ready Instructions</h2>
-      <p>Accepted papers will receive camera-ready formatting instructions that include the IEEE template, copyright forms, and final submission deadlines.</p>
-      <p class="status-pill status-pill--muted">Instructions will be added once the review process is complete.</p>
-    </aside>
-  </div>
-</section>
 
 <section class="section section--soft" aria-labelledby="topics-title">
   <div class="container">
