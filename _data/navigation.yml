@@ -1,7 +1,5 @@
 - label: "Home"
   url: "/"
-- label: "Attending"
-  url: "/attending/"
 - label: "Program"
   url: "/program/"
 - label: "Call for Papers"
