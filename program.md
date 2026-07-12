@@ -17,7 +17,6 @@ permalink: /program/
   <div class="container section__grid section__grid--balanced">
     <article class="prose">
       <p class="eyebrow">Program Overview</p>
-      <h2 id="overview-title">What to expect</h2>
       <p>The program will feature invited talks, paper sessions, poster presentations, doctoral symposium activities, and networking opportunities. A single-track schedule is planned to encourage broad participation across the ISORC community.</p>
       <p>Session themes will be selected to showcase advances in real-time distributed computing, dependable systems, edge intelligence, and cyber-physical infrastructure.</p>
     </article>
