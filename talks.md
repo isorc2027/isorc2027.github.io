@@ -22,7 +22,7 @@ permalink: /talks/
     </div>
 
     <ul class="link-list">
-      <li><a href="https://mcscert.github.io/isorc2026/talks/" target="_blank" rel="noopener">ISORC 2026 Talks</a></li>
+      <li><a href="https://mcscert.github.io/isorc2026/talks/" target="_blank" rel="noopener">ISORC 2026</a></li>
       <li><a href="https://isorc.github.io/2025/" target="_blank" rel="noopener">ISORC 2025</a></li>
       <li><a href="https://isorc.github.io/2024/" target="_blank" rel="noopener">ISORC 2024</a></li>
       <li><a href="https://isorc.github.io/2023/" target="_blank" rel="noopener">ISORC 2023</a></li>
