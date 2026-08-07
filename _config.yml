@@ -1,7 +1,7 @@
 title: "ISORC 2027"
 long_title: "30th IEEE International Symposium on Real-Time Distributed Computing"
-tagline: "International Symposium on Real-Time Distributed Computing(ISORC)"
-description: "Official website for the 30th IEEE International Symposium on Real-Time Distributed Computing (ISORC 2027), hosted by IIT Ropar, India, April 2–4, 2027."
+tagline: "The 30th IEEE International Symposium on Real-Time Distributed Computing"
+description: "Official website for the 30th IEEE International Symposium on Real-Time Distributed Computing (ISORC 2027), hosted by IIT Ropar, India, April 7-9, 2027."
 url: https://isorc2027.github.io
 baseurl: ""
 
@@ -12,7 +12,7 @@ conference:
   name: "30th IEEE International Symposium on Real-Time Distributed Computing"
   short_name: "ISORC 2027"
   edition: "30th"
-  dates: "March 2027"
+  dates: "April 7-9, 2027"
   year: 2027
   venue: "Indian Institute of Technology Ropar, India"
   venue_short: "IIT Ropar, India"
