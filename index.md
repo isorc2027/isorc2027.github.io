@@ -8,7 +8,7 @@ description: Official home page for ISORC 2027 at IIT Ropar, India.
   <img class="hero__image" src="{{ '/assets/img/iit-ropar-campus-placeholder.jpg' | relative_url }}" alt="Placeholder campus view of IIT Ropar for ISORC 2027">
   <div class="hero__overlay" aria-hidden="true"></div>
   <div class="container hero__content">
-    <p class="eyebrow">{{ site.conference.edition }} IEEE International Symposium</p>
+ 
     <h1 id="hero-title">{{ site.tagline }}</h1>
     <p class="hero__lead">{{ site.conference.short_name }} brings together researchers, practitioners, and system builders advancing the theory and practice of real-time distributed computing.</p>
     <dl class="hero__facts" aria-label="Conference details">
