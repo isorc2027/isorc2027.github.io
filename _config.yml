@@ -20,8 +20,9 @@ conference:
   local_lab: "SDSN — Smart Distributed Systems and Networking Lab"
   contact_email: "isorc2027@gmail.com"
   submission_open: false
-    cfp_available: true
-    cfp_pdf: "/assets/docs/ISORC_2027_CFP.pdf"
+  cfp_available: true
+  cfp_pdf: "/assets/docs/ISORC_2027_CFP.pdf"
+
 
 
 
