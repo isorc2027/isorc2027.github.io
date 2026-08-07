@@ -9,7 +9,8 @@ permalink: /call-for-papers/
   <div class="container page-hero__content">
     <p class="eyebrow">Call for Papers</p>
     <h1 id="page-title">ISORC 2027 Call for Papers</h1>
-    <p>We invite high-quality submissions on real-time distributed computing — from foundational methods and architectures to evaluated systems, applications, and industrial experience reports.</p>
+    <p>IEEE ISORC was established in 1998 to advance research in real-time distributed computing. ISORC 2027 marks the symposium's 30th anniversary and its debut in India, hosted by IIT Ropar. We invite high-quality papers that place real-time constraints, timing analysis, determinism, or embedded system concerns at the center of their contribution.</p>
+
     <div class="page-hero__actions">
       {% if site.conference.cfp_available %}
         <a class="button button--primary" href="{{ site.conference.cfp_pdf | relative_url }}" target="_blank" rel="noopener">Download CFP (PDF)</a>
