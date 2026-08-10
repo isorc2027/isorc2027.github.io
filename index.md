@@ -47,7 +47,7 @@ description: Official home page for ISORC 2027 at IIT Ropar, India.
         <li>Hosted by {{ site.conference.venue_short }}</li>
         <li>Conference dates: {{ site.conference.dates }}</li>
         <li>Submission portal: coming soon</li>
-        <li>CFP PDF: coming soon</li>
+        <li>CFP PDF: <a href="{{ site.conference.cfp_pdf | relative_url }}" target="_blank">Download PDF</a></li>
       </ul>
     </aside>
   </div>
