@@ -61,27 +61,47 @@ description: Official home page for ISORC 2027 at IIT Ropar, India.
       <p>Explore conference facilities, the IIT Ropar campus, and the CSE building in preparation for ISORC 2027.</p>
     </div>
 
-    <div class="gallery-grid">
-      <figure class="gallery-card">
-        <img src="{{ '/assets/img/iit-ropar-campus-placeholder.jpg' | relative_url }}" alt="IIT Ropar campus view">
-        <figcaption>IIT Ropar campus</figcaption>
-      </figure>
-      <figure class="gallery-card">
-        <img src="{{ '/assets/img/CSE.jpg' | relative_url }}" alt="IIT Ropar Computer Science and Engineering building">
-        <figcaption>CSE building</figcaption>
-      </figure>
-      <figure class="gallery-card">
-        <img src="{{ '/assets/img/1.jpg' | relative_url }}" alt="Conference venue at IIT Ropar">
-        <figcaption>Conference venue</figcaption>
-      </figure>
-      <figure class="gallery-card">
-        <img src="{{ '/assets/img/2.jpg' | relative_url }}" alt="IIT Ropar campus pathways">
-        <figcaption>Campus pathways</figcaption>
-      </figure>
-      <figure class="gallery-card">
-        <img src="{{ '/assets/img/3.jpg' | relative_url }}" alt="IIT Ropar academic facilities">
-        <figcaption>Academic facilities</figcaption>
-      </figure>
+    <div class="slideshow" aria-label="Campus gallery slideshow">
+      <div class="slideshow__track">
+        <div class="slide active">
+          <img src="{{ '/assets/img/MAIN.jpg' | relative_url }}" alt="IIT Ropar main building">
+        </div>
+        <div class="slide">
+          <img src="{{ '/assets/img/AERIEL.jpg' | relative_url }}" alt="Aerial view of IIT Ropar">
+        </div>
+        <div class="slide">
+          <img src="{{ '/assets/img/iitropar-pic-2.jpg' | relative_url }}" alt="IIT Ropar campus">
+        </div>
+        <div class="slide">
+          <img src="{{ '/assets/img/rainy.jpg' | relative_url }}" alt="IIT Ropar campus in rain">
+        </div>
+        <div class="slide">
+          <img src="{{ '/assets/img/indus.jpg' | relative_url }}" alt="Indus river near IIT Ropar">
+        </div>
+        <div class="slide">
+          <img src="{{ '/assets/img/sab.jpg' | relative_url }}" alt="IIT Ropar SAB building">
+        </div>
+        <div class="slide">
+          <img src="{{ '/assets/img/CSE.jpg' | relative_url }}" alt="CSE building">
+        </div>
+        <div class="slide">
+          <img src="{{ '/assets/img/1.jpg' | relative_url }}" alt="Conference venue">
+        </div>
+        <div class="slide">
+          <img src="{{ '/assets/img/2.jpg' | relative_url }}" alt="Campus pathways">
+        </div>
+        <div class="slide">
+          <img src="{{ '/assets/img/3.jpg' | relative_url }}" alt="Academic facilities">
+        </div>
+        <div class="slide">
+          <video autoplay muted loop playsinline>
+            <source src="{{ '/assets/img/iitrpr_campus_video.mp4' | relative_url }}" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <button class="slideshow__btn slideshow__btn--prev" aria-label="Previous slide">&#8592;</button>
+      <button class="slideshow__btn slideshow__btn--next" aria-label="Next slide">&#8594;</button>
+      <div class="slideshow__dots" aria-hidden="true"></div>
     </div>
   </div>
 </section>
