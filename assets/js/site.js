@@ -28,7 +28,7 @@
   });
 })();
 
-(function () {
+document.addEventListener('DOMContentLoaded', function () {
   const slides = document.querySelectorAll('.slide');
   const dotsContainer = document.querySelector('.slideshow__dots');
   if (!slides.length || !dotsContainer) return;
@@ -63,4 +63,4 @@
   if (nextBtn) nextBtn.addEventListener('click', function () { goTo(current + 1); });
 
   resetTimer();
-})();
+});
