@@ -9,7 +9,11 @@ permalink: /venue/
   <div class="container page-hero__content">
     <p class="eyebrow">Venue & Local Information</p>
     <h1 id="page-title">{{ site.conference.venue_short }}</h1>
-    <p>ISORC 2027 is planned to be hosted at the Indian Institute of Technology Ropar, a modern research-intensive institute in Punjab, India.</p>
+    <p>ISORC 2027 is hosted at the Indian Institute of Technology Ropar, a modern research-intensive institute in Punjab, India.</p>
+    <div class="page-hero__actions">
+      <a class="button button--primary" href="https://www.iitrpr.ac.in/" target="_blank" rel="noopener">IIT Ropar Website</a>
+      <a class="button button--secondary" href="https://cse.iitrpr.ac.in/" target="_blank" rel="noopener">CSE Department</a>
+    </div>
   </div>
 </section>
 
@@ -19,7 +23,6 @@ permalink: /venue/
       <p class="eyebrow">Host Campus</p>
       <h2 id="venue-title">A focused academic environment for systems research</h2>
       <p>IIT Ropar provides a strong research setting for computer science, engineering, embedded systems, and distributed computing. The campus environment is well suited for a focused, single-track academic symposium, technical discussions, poster sessions, and community networking.</p>
-      <p>Local support placeholders include the Department of Computer Science and Engineering and POEMS Lab — Parallel, Operating, Edge, and Mobile Systems Lab.</p>
     </article>
 
     <aside class="info-panel" aria-labelledby="local-support-title">
@@ -27,37 +30,109 @@ permalink: /venue/
       <ul class="check-list">
         <li>Host: {{ site.conference.host_department }}</li>
         <li>Local lab support: {{ site.conference.local_lab }}</li>
-        <li>Venue room details: coming soon</li>
-        <li>Campus map: coming soon</li>
+        <li><a href="https://www.google.com/maps/place/Auditorium+IIT+ROPAR/@30.967058,76.472757,967m/data=!3m1!1e3!4m6!3m5!1s0x390555fd2ad2dee5:0x56ce16cc4c9493c7!8m2!3d30.967495!4d76.4732072!16s%2Fg%2F11r57gnld4" target="_blank" rel="noopener">View on Google Maps</a></li>
       </ul>
     </aside>
   </div>
 </section>
 
-<section class="section section--soft" aria-labelledby="visitor-info-title">
+<section class="section section--soft" aria-labelledby="travel-title">
   <div class="container">
     <div class="section__header">
-      <p class="eyebrow">Visitor Information</p>
-      <h2 id="visitor-info-title">Travel, accommodation, and visas</h2>
-      <p>Detailed local information will be published as conference arrangements are finalized.</p>
+      <p class="eyebrow">How to Reach IIT Ropar</p>
+      <h2 id="travel-title">How to Reach IIT Ropar</h2>
+      <p><strong>Important:</strong> For detailed travel and accommodation information, please visit our Travel & Accommodation Guide.</p>
     </div>
 
     <div class="card-grid card-grid--three">
       <article class="track-card">
-        <h3>Travel</h3>
-        <p>Recommended routes to IIT Ropar, airport/rail connections, local transport, and campus access information will be announced.</p>
-        <p class="status-pill status-pill--muted">Details Coming Soon</p>
+        <h3>By Air</h3>
+        <p>The nearest major airport is Chandigarh International Airport, approximately 60 km from IIT Ropar. From Chandigarh, hire a taxi directly to IIT Ropar or take a bus to Rupnagar City and then an auto or taxi to campus.</p>
+        <p>Drive from Chandigarh Airport: ~1 to 1.5 hours. Drive from Rupnagar City: ~15 to 20 minutes.</p>
       </article>
       <article class="track-card">
-        <h3>Accommodation</h3>
-        <p>Hotel suggestions, campus guest house information, negotiated rates, and booking instructions will be listed here.</p>
-        <p class="status-pill status-pill--muted">Details Coming Soon</p>
+        <h3>By Train</h3>
+        <p>The nearest major railway station is Chandigarh Railway Station. Rupnagar Railway Station is closer but has limited connectivity.</p>
+        <p>From Chandigarh Station, book a taxi or bus — journey takes ~1 to 1.5 hours. From Rupnagar Station, book a taxi or auto directly to campus.</p>
       </article>
       <article class="track-card">
-        <h3>Visas</h3>
-        <p>Visa guidance, invitation letter process, and required documentation information will be added after registration opens.</p>
-        <p class="status-pill status-pill--muted">Details Coming Soon</p>
+        <h3>By Road</h3>
+        <p>Rupnagar city is well connected by road through various parts of Punjab. From Rupnagar city to IIT Ropar: ~15–20 minutes. From Chandigarh to IIT Ropar: ~1 to 1.5 hours.</p>
+        <p>Detailed route maps and further travel guidelines will be provided as the conference date approaches.</p>
       </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="tourist-title">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">Nearby Tourist Places</p>
+      <h2 id="tourist-title">Nearby Tourist Places</h2>
+    </div>
+
+    <div class="table-wrap">
+      <table class="dates-table">
+        <thead>
+          <tr>
+            <th scope="col">Place</th>
+            <th scope="col">City</th>
+            <th scope="col">Distance</th>
+            <th scope="col">Travel Time</th>
+            <th scope="col">Ticket Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><a href="https://www.goldentempleamritsar.org/" target="_blank" rel="noopener">Golden Temple</a></th>
+            <td>Amritsar</td><td>185 KMs</td><td>3 hrs</td><td>NIL</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://www.saddapind.co.in/" target="_blank" rel="noopener">Sadda Pind</a></th>
+            <td>Amritsar</td><td>197 KMs</td><td>3 hrs</td><td>₹800/person</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://rupnagar.nic.in/tourist-place/virasat-e-khalsa/" target="_blank" rel="noopener">Virasat-e-Khalsa</a></th>
+            <td>Anandpur Sahib</td><td>48 KMs</td><td>1 hr</td><td>-</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://en.wikipedia.org/wiki/Anandpur_Sahib" target="_blank" rel="noopener">Anandpur Sahib Gurudwara</a></th>
+            <td>Anandpur Sahib</td><td>48 KMs</td><td>1 hr</td><td>NIL</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://chandigarhtourism.in/the-rock-garden-of-chandigarh" target="_blank" rel="noopener">Rock Garden</a></th>
+            <td>Chandigarh</td><td>55 KMs</td><td>1.5 hrs</td><td>₹10-30/person</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://chandigarhtourism.in/sukhna-lake-chandigarh" target="_blank" rel="noopener">Sukhna Lake</a></th>
+            <td>Chandigarh</td><td>55 KMs</td><td>1.5 hrs</td><td>NIL (boat rides ₹250-500)</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://haveli.co/jalandhar/" target="_blank" rel="noopener">Haveli Jalandhar</a></th>
+            <td>Jalandhar</td><td>96.8 KMs</td><td>1.5 hrs</td><td>Based on food ordered</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://jalandhar.nic.in/gallery/jang-e-azadi/" target="_blank" rel="noopener">Jang-e-Azadi Memorial</a></th>
+            <td>Jalandhar (Kartarpur)</td><td>122 KMs</td><td>1.75 hrs</td><td>₹100/person</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://chokhidhanipanchkula.com/" target="_blank" rel="noopener">Choki Dhani</a></th>
+            <td>Panchkula</td><td>68.5 KMs</td><td>1.5 hrs</td><td>₹500-1000/person</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://www.haryana.gov.in/places-centres/yadavindra-garden-pinjorepanchkula/" target="_blank" rel="noopener">Pinjore Garden</a></th>
+            <td>Panchkula</td><td>66.5 KMs</td><td>1.5 hrs</td><td>₹10-125/person</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://mansadevi.org.in/" target="_blank" rel="noopener">Mata Mansa Devi Temple</a></th>
+            <td>Panchkula</td><td>60 KMs</td><td>1.5 hrs</td><td>NIL</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="https://rupnagar.nic.in/tourist-place/archeological-museum/" target="_blank" rel="noopener">Ropar Archeological Museum</a></th>
+            <td>Ropar</td><td>6.7 KMs</td><td>10 mins</td><td>₹5/person</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
