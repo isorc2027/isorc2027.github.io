@@ -27,6 +27,11 @@ permalink: /organization/
         <ul class="person-list">
           {% for person in role.members %}
           <li>
+            {% if person.photo and person.photo != "" %}
+              <img class="person-photo" src="{{ '/assets/img/committee/' | append: person.photo | relative_url }}" alt="{{ person.name }}">
+            {% else %}
+              <div class="person-photo person-photo--placeholder"></div>
+            {% endif %}
             <strong>{{ person.name }}</strong>
             <span>{{ person.affiliation }}</span>
           </li>

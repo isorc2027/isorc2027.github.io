@@ -3,44 +3,58 @@ roles:
     members:
       - name: "Aviral Shrivastava"
         affiliation: "Arizona State University, USA"
+        photo: "Aviral Shrivastava, Arizona State University, USA.jpg"
       - name: "Martin Schoeberl"
         affiliation: "Technical University of Denmark"
+        photo: "Martin Shoeberl, Technical University of Denmark..jpg"
       - name: "Nitin Auluck"
         affiliation: "IIT Ropar, India"
+        photo: "Nitin Auluck, IIT Ropar, India..jpg"
 
   - title: "Steering Committee"
     members:
       - name: "Robert G. Petit"
         affiliation: "George Mason University, USA"
+        photo: "Robert G Petit, George Mason University, USA.jpg"
       - name: "Uwe Brinkschulte"
         affiliation: "Goethe University, Germany"
+        photo: "Uwe Brinkshulte, Goethke University, Germany.jpg"
       - name: "Gabor Karsai"
         affiliation: "Vanderbilt University, USA"
+        photo: "Gabor Karsai, Vanderbilt University, USA.jpg"
       - name: "Mathias Pacher"
         affiliation: "Baden-Wuerttemberg Cooperative State University, Germany"
+        photo: ""
 
   - title: "Program Committee Chairs"
     members:
       - name: "Rupesh Nasre"
         affiliation: "IIT Madras, India"
+        photo: "Rupesh Nasre, IIT Madras, India..jpg"
       - name: "Sibin Mohan"
         affiliation: "George Washington University, USA"
+        photo: "Sibin Mohan, George Washington University, USA..jpg"
       - name: "Aleksey Koschowoj"
         affiliation: "Goethe University, Germany"
+        photo: ""
 
   - title: "Local Organising Chairs"
     members:
       - name: "Sujata Pal"
         affiliation: "IIT Ropar, India"
+        photo: "Sujata Pal, IIT Ropar, India.webp"
       - name: "Sudeepta Mishra"
         affiliation: "IIT Ropar, India"
+        photo: "Sudeepta Mishra, IIT Ropar, India.jpg"
       - name: "Jagpreet Singh"
         affiliation: "IIT Ropar, India"
+        photo: "Jagpreet Singh, IIT Ropar, India.jpg"
 
   - title: "Web Chair"
     members:
       - name: "Muhammed Rafeeq War"
         affiliation: "IIT Ropar, India"
+        photo: "Muhammed Rafeeq War, IIT Ropar, India..jpg"
 
 host:
   department: "Department of Computer Science and Engineering"
