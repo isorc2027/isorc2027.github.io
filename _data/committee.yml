@@ -1,33 +1,46 @@
 roles:
   - title: "General Chairs"
     members:
-      - name: "Coming Soon"
-        affiliation: "To be announced"
+      - name: "Aviral Shrivastava"
+        affiliation: "Arizona State University, USA"
+      - name: "Martin Schoeberl"
+        affiliation: "Technical University of Denmark"
+      - name: "Nitin Auluck"
+        affiliation: "IIT Ropar, India"
 
-  - title: "Program Chairs"
+  - title: "Steering Committee"
     members:
-      - name: "Coming Soon"
-        affiliation: "To be announced"
+      - name: "Robert G. Petit"
+        affiliation: "George Mason University, USA"
+      - name: "Uwe Brinkschulte"
+        affiliation: "Goethe University, Germany"
+      - name: "Gabor Karsai"
+        affiliation: "Vanderbilt University, USA"
+      - name: "Mathias Pacher"
+        affiliation: "Baden-Wuerttemberg Cooperative State University, Germany"
 
-  - title: "Local Organizing Chair"
+  - title: "Program Committee Chairs"
     members:
-      - name: "Coming Soon"
-        affiliation: "To be announced"
+      - name: "Rupesh Nasre"
+        affiliation: "IIT Madras, India"
+      - name: "Sibin Mohan"
+        affiliation: "George Washington University, USA"
+      - name: "Aleksey Koschowoj"
+        affiliation: "Goethe University, Germany"
 
-  - title: "Publicity Chairs"
+  - title: "Local Organising Chairs"
     members:
-      - name: "Coming Soon"
-        affiliation: "To be announced"
-
-  - title: "Publication Chairs"
-    members:
-      - name: "Coming Soon"
-        affiliation: "To be announced"
+      - name: "Sujata Pal"
+        affiliation: "IIT Ropar, India"
+      - name: "Sudeepta Mishra"
+        affiliation: "IIT Ropar, India"
+      - name: "Jagpreet Singh"
+        affiliation: "IIT Ropar, India"
 
   - title: "Web Chair"
     members:
-      - name: "Coming Soon"
-        affiliation: "To be announced"
+      - name: "Muhammed Rafeeq War"
+        affiliation: "IIT Ropar, India"
 
 host:
   department: "Department of Computer Science and Engineering"
