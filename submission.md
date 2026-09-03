@@ -11,7 +11,7 @@ permalink: /submission/
     <h1 id="page-title">Submission Guidelines</h1>
     <p>ISORC 2027 submissions will follow IEEE conference formatting requirements. Final page limits and review policies will be announced with the official CFP.</p>
     <div class="page-hero__actions">
-      <button class="button button--primary" type="button" disabled>Submit via HotCRP — Coming Soon</button>
+      <a class="button button--primary" href="https://submission.isorc-conference.org" rel="noopener" target="_blank">Submit via HotCRP</a>
       <a class="button button--secondary" href="https://www.ieee.org/conferences/publishing/templates.html" rel="noopener" target="_blank">IEEE Templates</a>
     </div>
   </div>
@@ -35,9 +35,27 @@ permalink: /submission/
 
     <aside class="notice-card" aria-labelledby="submission-status-title">
       <h2 id="submission-status-title">Submission Portal</h2>
-      <p>The official HotCRP submission site will be linked here after setup.</p>
-      <button class="button button--ghost" type="button" disabled>Portal Coming Soon</button>
+      <p>The official HotCRP submission portal is now open for paper submissions.</p>
+      <a class="button button--ghost" href="https://submission.isorc-conference.org" rel="noopener" target="_blank">Open Submission Portal</a>
     </aside>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="hotcrp-title">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">Paper Submission System</p>
+      <h2 id="hotcrp-title">HotCRP</h2>
+      <p>ISORC 2027 uses <strong>HotCRP</strong> for paper submission and review management, as used by past editions of the conference.</p>
+    </div>
+    <div class="section__grid">
+      <article class="prose">
+        <h3>Open-source &amp; self-hosted</h3>
+        <p>HotCRP is open-source software available at no cost when self-hosted. You can download the source code from <a href="https://github.com/kohler/hotcrp" rel="noopener" target="_blank">github.com/kohler/hotcrp</a>, set up a Linux server with PHP and MySQL, and run it at zero software cost.</p>
+        <h3>Managed hosting (HotCRP.com)</h3>
+        <p>Alternatively, <a href="https://hotcrp.com" rel="noopener" target="_blank">HotCRP.com</a> is a managed cloud-hosting service operated by the software's author, Eddie Kohler. Fees apply to cover server infrastructure, bandwidth, maintenance, and support.</p>
+      </article>
+    </div>
   </div>
 </section>
 
