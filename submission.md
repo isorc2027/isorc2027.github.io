@@ -11,7 +11,7 @@ permalink: /submission/
     <h1 id="page-title">Submission Guidelines</h1>
     <p>ISORC 2027 submissions will follow IEEE conference formatting requirements. Final page limits and review policies will be announced with the official CFP.</p>
     <div class="page-hero__actions">
-      <a class="button button--primary" href="https://submission.isorc-conference.org" rel="noopener" target="_blank">Submit via HotCRP</a>
+      <a class="button button--primary" href="https://submission.isorc-conference.org:443/" rel="noopener" target="_blank">Submit via HotCRP</a>
       <a class="button button--secondary" href="https://www.ieee.org/conferences/publishing/templates.html" rel="noopener" target="_blank">IEEE Templates</a>
     </div>
   </div>
@@ -36,7 +36,7 @@ permalink: /submission/
     <aside class="notice-card" aria-labelledby="submission-status-title">
       <h2 id="submission-status-title">Submission Portal</h2>
       <p>The official HotCRP submission portal is now open for paper submissions.</p>
-      <a class="button button--ghost" href="https://submission.isorc-conference.org" rel="noopener" target="_blank">Open Submission Portal</a>
+      <a class="button button--ghost" href="https://submission.isorc-conference.org:443/" rel="noopener" target="_blank">Open Submission Portal</a>
     </aside>
   </div>
 </section>
@@ -56,6 +56,26 @@ permalink: /submission/
         <p>Alternatively, <a href="https://hotcrp.com" rel="noopener" target="_blank">HotCRP.com</a> is a managed cloud-hosting service operated by the software's author, Eddie Kohler. Fees apply to cover server infrastructure, bandwidth, maintenance, and support.</p>
       </article>
     </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="pc-title">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">Program Committee</p>
+      <h2 id="pc-title">Program Committee Chairs</h2>
+    </div>
+    <ul class="committee-list">
+      {% for role in site.data.committee.roles %}
+        {% if role.title == "Program Committee Chairs" %}
+          {% for member in role.members %}
+            <li class="committee-member">
+              <strong>{{ member.name }}</strong> — {{ member.affiliation }}
+            </li>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </ul>
   </div>
 </section>
 
