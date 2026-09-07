@@ -41,24 +41,6 @@ permalink: /submission/
   </div>
 </section>
 
-<section class="section" aria-labelledby="hotcrp-title">
-  <div class="container">
-    <div class="section__header">
-      <p class="eyebrow">Paper Submission System</p>
-      <h2 id="hotcrp-title">HotCRP</h2>
-      <p>ISORC 2027 uses <strong>HotCRP</strong> for paper submission and review management, as used by past editions of the conference.</p>
-    </div>
-    <div class="section__grid">
-      <article class="prose">
-        <h3>Open-source &amp; self-hosted</h3>
-        <p>HotCRP is open-source software available at no cost when self-hosted. You can download the source code from <a href="https://github.com/kohler/hotcrp" rel="noopener" target="_blank">github.com/kohler/hotcrp</a>, set up a Linux server with PHP and MySQL, and run it at zero software cost.</p>
-        <h3>Managed hosting (HotCRP.com)</h3>
-        <p>Alternatively, <a href="https://hotcrp.com" rel="noopener" target="_blank">HotCRP.com</a> is a managed cloud-hosting service operated by the software's author, Eddie Kohler. Fees apply to cover server infrastructure, bandwidth, maintenance, and support.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
 <section class="section" aria-labelledby="pc-title">
   <div class="container">
     <div class="section__header">
