@@ -50,11 +50,14 @@ roles:
         affiliation: "IIT Ropar, India"
         photo: "Jagpreet Singh, IIT Ropar, India.jpg"
 
-  - title: "Web Chair"
+  - title: "Web Chairs"
     members:
       - name: "Muhammed Rafeeq War"
         affiliation: "IIT Ropar, India"
         photo: "Muhammed Rafeeq War, IIT Ropar, India..jpg"
+      - name: "Ashu Kaushik"
+        affiliation: "IIT Ropar, India"
+        photo: "Ashu_Kaushik.jpeg"
 
 host:
   department: "Department of Computer Science and Engineering"
