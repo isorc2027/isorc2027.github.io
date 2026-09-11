@@ -10,8 +10,6 @@
   url: "/organization/"
 - label: "Submission"
   url: "/submission/"
-- label: "Policies"
-  url: "/policies/ai-tools/"
 - label: "Venue"
   url: "/venue/"
 - label: "Important Dates"

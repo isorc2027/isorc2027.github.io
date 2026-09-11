@@ -42,43 +42,31 @@ permalink: /submission/
   </div>
 </section>
 
-<section class="section" aria-labelledby="ai-policy-title">
+<section class="section section--soft" aria-labelledby="ai-policy-title">
   <div class="container">
     <div class="section__header">
       <p class="eyebrow">Policies</p>
-      <h2 id="ai-policy-title">Use of AI tools</h2>
-      <p>ISORC 2027 permits limited use of AI-assisted tools by authors, subject to disclosure, and prohibits the use of external AI systems by reviewers when handling manuscripts under review. Authors and reviewers should review the full policy before submission or review.</p>
+      <h2 id="ai-policy-title">Use of AI Tools</h2>
+      <p>ISORC 2027 follows IEEE's guidelines and policies on the use of artificial intelligence tools in scholarly submission and peer review. The policy below applies separately to authors and to reviewers.</p>
     </div>
-    <a class="button button--secondary" href="{{ '/policies/ai-tools/' | relative_url }}">Read AI Tools Policy</a>
   </div>
-</section>
+  <div class="container section__grid">
+    <article class="prose notice-card">
+      <p class="eyebrow">For Authors</p>
+      <h3 id="ai-authors-title">Authors</h3>
+      <p>Tools such as Grammarly or other AI assistants may be used to improve the presentation of a submission. However, authors remain fully responsible for the accuracy of all information presented and for the originality and validity of their contributions.</p>
+      <p>Authors should follow the applicable IEEE policies regarding the use of AI-generated content. Any use of AI-generated text should be disclosed in the paper's Acknowledgements section, in accordance with IEEE requirements. Where applicable, sections containing AI-generated text should include an appropriate citation to the AI system used.</p>
+      <p>Authors are responsible for ensuring that the use of AI tools does not compromise the originality, integrity, confidentiality, or accuracy of their submission.</p>
+      <a class="button button--secondary" href="https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/#ai-generated-text" rel="noopener" target="_blank">IEEE Guidelines on AI-Generated Text</a>
+    </article>
 
-<section class="section" aria-labelledby="pc-title">
-  <div class="container">
-    <div class="section__header">
-      <p class="eyebrow">Program Committee</p>
-      <h2 id="pc-title">Program Committee Chairs</h2>
-    </div>
-    <ul class="committee-list">
-      {% for role in site.data.committee.roles %}
-        {% if role.title == "Program Committee Chairs" %}
-          {% for member in role.members %}
-            <li class="committee-member">
-              <strong>{{ member.name }}</strong> — {{ member.affiliation }}
-            </li>
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-
-<section class="section section--soft" aria-labelledby="review-title">
-  <div class="container">
-    <div class="section__header">
-      <p class="eyebrow">Review Process</p>
-      <h2 id="review-title">Quality and integrity</h2>
-      <p>Submissions will be reviewed for originality, significance, technical soundness, clarity, reproducibility, and relevance to the ISORC community. Specific review mode, anonymity policy, and conflict-of-interest rules will be published in the final CFP.</p>
-    </div>
+    <article class="prose notice-card">
+      <p class="eyebrow">For Reviewers</p>
+      <h3 id="ai-reviewers-title">Reviewers</h3>
+      <p>ISORC 2027 follows IEEE's policies concerning the use of AI tools during the peer-review process.</p>
+      <p>In particular, reviewers must not use public AI tools or other external AI systems to process, upload, summarize, analyze, or generate review content based on manuscripts under review. Manuscripts and information contained in them are confidential, and submitting such material to external AI systems may constitute a breach of confidentiality.</p>
+      <p>Reviewers are expected to evaluate manuscripts personally and independently and remain fully responsible for the content and recommendations of their submitted reviews.</p>
+      <a class="button button--secondary" href="https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/" rel="noopener" target="_blank">IEEE Submission and Peer-Review Policies</a>
+    </article>
   </div>
 </section>
