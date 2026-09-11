@@ -37,7 +37,19 @@ permalink: /submission/
       <h2 id="submission-status-title">Submission Portal</h2>
       <p>The official HotCRP submission portal is now open for paper submissions.</p>
       <a class="button button--ghost" href="https://submission.isorc-conference.org/" rel="noopener" target="_blank">Open Submission Portal</a>
+      <p class="notice-card__fine"><strong>Important: New account registration required.</strong> This is a newly deployed submission system — accounts from previous conferences or other HotCRP installations will not work here. If you have not registered on the ISORC 2027 portal before, select <strong>“Create an account”</strong> on the portal's sign-in page and complete registration before submitting.</p>
     </aside>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="ai-policy-title">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">Policies</p>
+      <h2 id="ai-policy-title">Use of AI tools</h2>
+      <p>ISORC 2027 permits limited use of AI-assisted tools by authors, subject to disclosure, and prohibits the use of external AI systems by reviewers when handling manuscripts under review. Authors and reviewers should review the full policy before submission or review.</p>
+    </div>
+    <a class="button button--secondary" href="{{ '/policies/ai-tools/' | relative_url }}">Read AI Tools Policy</a>
   </div>
 </section>
 

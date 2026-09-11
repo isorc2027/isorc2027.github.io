@@ -721,6 +721,18 @@ p {
   font-size: var(--font-size-xl);
 }
 
+.notice-card__fine {
+  margin-block-start: var(--space-5);
+  padding-block-start: var(--space-4);
+  border-block-start: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: var(--font-size-sm);
+}
+
+.notice-card__fine strong {
+  color: var(--color-ink);
+}
+
 .check-list,
 .topic-list,
 .person-list {
