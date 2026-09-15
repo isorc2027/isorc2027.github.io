@@ -19,7 +19,7 @@ conference:
   host_department: "Department of Computer Science and Engineering, IIT Ropar"
   local_lab: "SDSN — Smart Distributed Systems and Networking Lab"
   contact_email: "isorc2027@gmail.com"
-  submission_open: false
+  submission_open: true
   cfp_available: true
   cfp_pdf: "/assets/docs/ISORC_2027_CFP.pdf"
 

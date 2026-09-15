@@ -9,7 +9,8 @@ permalink: /submission/
   <div class="container page-hero__content">
     <p class="eyebrow">Submission</p>
     <h1 id="page-title">Submission Guidelines</h1>
-    <p>ISORC 2027 submissions will follow IEEE conference formatting requirements. Final page limits and review policies will be announced with the official CFP.</p>
+    <p><span class="status-pill">Submission is live</span></p>
+    <p>ISORC 2027 submissions will follow IEEE conference formatting requirements. Final page limits and review policies can be found on the official CFP.</p>
     <div class="page-hero__actions">
       <a class="button button--primary" href="https://submission.isorc-conference.org/" rel="noopener" target="_blank">Submit via HotCRP</a>
       <a class="button button--secondary" href="https://www.ieee.org/conferences/publishing/templates.html" rel="noopener" target="_blank">IEEE Templates</a>
