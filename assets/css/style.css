@@ -1278,8 +1278,8 @@ p {
   width: 4rem;
   height: 4rem;
   border-radius: var(--radius-md);
-  object-fit: cover;
-  object-position: top;
+  object-fit: contain;
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
 }
 
