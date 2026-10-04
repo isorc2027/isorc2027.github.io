@@ -71,6 +71,7 @@ roles:
         photo: "Muhammed Rafeeq War, IIT Ropar, India..jpg"
       - name: "Ashu Kaushik"
         affiliation: "IIT Ropar, India"
+        email: "ashu.kaushik@iitrpr.ac.in"
         photo: "Ashu_Kaushik.jpeg"
 
 host:
