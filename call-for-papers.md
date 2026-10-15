@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Call for Papers
-description: Call for Papers for ISORC 2027 — 30th IEEE International Symposium on Real-Time Distributed Computing, IIT Ropar, India.
+description: Call for Papers for ISORC 2027 — 30th International Symposium on Real-Time Distributed Computing, IIT Ropar, India.
 permalink: /call-for-papers/
 ---
 
@@ -9,7 +9,7 @@ permalink: /call-for-papers/
   <div class="container page-hero__content">
     <p class="eyebrow">Call for Papers</p>
     <h1 id="page-title">ISORC 2027 Call for Papers</h1>
-    <p>The 30th IEEE International Symposium on Real-Time Distributed Computing — IIT Ropar, Punjab, India — April 7–9, 2027.</p>
+    <p>The 30th International Symposium on Real-Time Distributed Computing — IIT Ropar, Punjab, India — April 7–9, 2027.</p>
     <div class="page-hero__actions">
       {% if site.conference.cfp_available %}
         <a class="button button--primary" href="{{ site.conference.cfp_pdf | relative_url }}" target="_blank" rel="noopener">Download CFP (PDF)</a>
@@ -23,9 +23,9 @@ permalink: /call-for-papers/
 
 <section class="section" aria-labelledby="about-title">
   <div class="container prose">
-    <p class="eyebrow">About IEEE ISORC</p>
-    <h2 id="about-title">About IEEE ISORC</h2>
-    <p>IEEE ISORC was established in 1998 to advance research in real-time distributed computing. For nearly three decades, ISORC has served as the premier intimate forum where researchers and practitioners tackle the hardest timing, predictability, and dependability challenges facing modern computing systems.</p>
+    <p class="eyebrow">About ISORC</p>
+    <h2 id="about-title">About ISORC</h2>
+    <p>ISORC was established in 1998 to advance research in real-time distributed computing. For nearly three decades, ISORC has served as the premier intimate forum where researchers and practitioners tackle the hardest timing, predictability, and dependability challenges facing modern computing systems.</p>
     <p>Today, real-time constraints are no longer confined to traditional embedded systems. They define the performance envelope of autonomous vehicles, edge AI, medical devices, industrial control systems, and next-generation communications infrastructure. ISORC's single-track format and collegial atmosphere make it the ideal venue to bridge foundational real-time theory with these emerging application domains.</p>
     <p>We invite high-quality papers that place real-time constraints, timing analysis, determinism, or embedded system concerns at the center of their contribution. Topics in AI/ML, IoT, and autonomous systems are welcome when grounded in these foundational concerns.</p>
     <p>ISORC 2027 marks the symposium's 30th anniversary and its debut in India, hosted by IIT Ropar. As always, the program preserves ISORC's single-track format, intimate scale, and dedicated time for cultural engagement with the host region.</p>
@@ -37,7 +37,7 @@ permalink: /call-for-papers/
     <div class="section__header">
       <p class="eyebrow">Topics of Interest</p>
       <h2 id="topics-title">Topics</h2>
-      <p>IEEE ISORC 2027 invites papers on all aspects of real-time distributed computing technology, including, but not limited to:</p>
+      <p>ISORC 2027 invites papers on all aspects of real-time distributed computing technology, including, but not limited to:</p>
     </div>
     <ul class="topic-list">
       <li><strong>Real-Time and Embedded System Architectures:</strong> Hardware/software co-design, real-time operating systems, hypervisors for RT, time-predictable processors and memory, microcontroller and SoC platforms.</li>

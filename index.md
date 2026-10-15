@@ -37,7 +37,7 @@ description: Official home page for ISORC 2027 at IIT Ropar, India.
     <article class="prose">
       <p class="eyebrow">About ISORC</p>
       <h2 id="about-title">A leading forum for real-time distributed computing</h2>
-      <p>The IEEE International Symposium on Real-Time Distributed Computing focuses on the design, analysis, implementation, evaluation, and deployment of time-sensitive distributed systems. ISORC 2027 will emphasize rigorous research and practical systems that integrate predictable timing, dependability, scalability, security, and intelligent operation across modern computing environments.</p>
+      <p>The International Symposium on Real-Time Distributed Computing focuses on the design, analysis, implementation, evaluation, and deployment of time-sensitive distributed systems. ISORC 2027 will emphasize rigorous research and practical systems that integrate predictable timing, dependability, scalability, security, and intelligent operation across modern computing environments.</p>
       <p>The symposium welcomes work spanning real-time systems, distributed and edge computing, cyber-physical systems, IoT, time-sensitive networking, cloud-edge-fog infrastructures, embedded platforms, autonomous systems, and data-intensive real-time analytics.</p>
     </article>
 
