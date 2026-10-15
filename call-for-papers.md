@@ -96,7 +96,8 @@ permalink: /call-for-papers/
         </thead>
         <tbody>
           <tr><th scope="row">Call for Papers released</th><td>August 10, 2026</td></tr>
-          <tr><th scope="row">Paper submission deadline</th><td>October 16, 2026</td></tr>
+          <tr style="text-decoration:line-through;opacity:0.5;"><th scope="row">Paper submission deadline</th><td>October 16, 2026</td></tr>
+          <tr><th scope="row">Paper submission deadline (extended)</th><td><strong>October 31, 2026</strong></td></tr>
           <tr><th scope="row">Acceptance notification</th><td>December 1, 2026</td></tr>
           <tr><th scope="row">Author registration deadline</th><td>January 2027 (tentative)</td></tr>
           <tr><th scope="row">Camera-ready papers due</th><td>January 2027 (tentative)</td></tr>

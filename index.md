@@ -4,6 +4,10 @@ title: Home
 description: Official home page for ISORC 2027 at IIT Ropar, India.
 ---
 
+<div class="deadline-banner" role="alert" aria-live="polite">
+  🔔 <strong>Deadline Extended!</strong> The paper submission deadline has been extended to <strong>October 31, 2026</strong>. <a href="{{ '/important-dates/' | relative_url }}">View all dates →</a>
+</div>
+
 <section class="hero" aria-labelledby="hero-title">
   <img class="hero__image" src="{{ '/assets/img/iit-ropar-campus-placeholder.jpg' | relative_url }}" alt="Placeholder campus view of IIT Ropar for ISORC 2027">
   <div class="hero__overlay" aria-hidden="true"></div>

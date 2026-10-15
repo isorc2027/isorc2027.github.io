@@ -1290,3 +1290,34 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+/* --------------------------------------------------------------------------
+   15. Deadline Banner
+   -------------------------------------------------------------------------- */
+.deadline-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-6);
+  background: #7f1d1d;
+  color: #fff;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  text-align: center;
+  animation: banner-flash 1.4s ease-in-out infinite;
+}
+
+.deadline-banner a {
+  color: var(--color-gold);
+  text-decoration: underline;
+}
+
+@keyframes banner-flash {
+  0%, 100% { background: #7f1d1d; }
+  50%       { background: #b91c1c; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .deadline-banner { animation: none; }
+}

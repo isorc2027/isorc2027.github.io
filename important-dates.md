@@ -34,12 +34,14 @@ permalink: /important-dates/
         </thead>
         <tbody>
           {% for item in site.data.dates.milestones %}
-          <tr>
+          <tr{% if item.status == "extended" %} style="text-decoration:line-through;opacity:0.5;"{% endif %}>
             <th scope="row">{{ item.label }}</th>
             <td>{{ item.date }}</td>
             <td>
               {% if item.status == "confirmed" %}
                 <span class="status-pill">Confirmed</span>
+              {% elsif item.status == "extended" %}
+                <span class="status-pill status-pill--muted">Extended</span>
               {% elsif item.status == "tentative" %}
                 <span class="status-pill">Tentative</span>
               {% else %}
