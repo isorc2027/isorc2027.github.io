@@ -25,11 +25,19 @@ permalink: /organization/
       {% if role.title == "Program Committee" %}
       <article class="committee-card committee-card--wide">
         <h3>{{ role.title }} <small style="font-weight:normal;font-size:0.85em;">({{ role.note }})</small></h3>
-        <ol class="pc-list">
+        <ul class="person-list">
           {% for person in role.members %}
-          <li><strong>{{ person.name }}</strong>, {{ person.affiliation }}</li>
+          <li>
+            {% if person.photo and person.photo != "" %}
+              <img class="person-photo" src="{{ '/assets/img/committee/' | append: person.photo | relative_url }}" alt="{{ person.name }}">
+            {% else %}
+              <div class="person-photo person-photo--placeholder"></div>
+            {% endif %}
+            <strong>{{ person.name }}</strong>
+            <span>{{ person.affiliation }}</span>
+          </li>
           {% endfor %}
-        </ol>
+        </ul>
       </article>
       {% else %}
       <article class="committee-card">
