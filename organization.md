@@ -22,6 +22,16 @@ permalink: /organization/
 
     <div class="committee-grid">
       {% for role in site.data.committee.roles %}
+      {% if role.title == "Program Committee" %}
+      <article class="committee-card committee-card--wide">
+        <h3>{{ role.title }} <small style="font-weight:normal;font-size:0.85em;">({{ role.note }})</small></h3>
+        <ol class="pc-list">
+          {% for person in role.members %}
+          <li><strong>{{ person.name }}</strong>, {{ person.affiliation }}</li>
+          {% endfor %}
+        </ol>
+      </article>
+      {% else %}
       <article class="committee-card">
         <h3>{{ role.title }}</h3>
         <ul class="person-list">
@@ -38,6 +48,7 @@ permalink: /organization/
           {% endfor %}
         </ul>
       </article>
+      {% endif %}
       {% endfor %}
 
       <article class="committee-card committee-card--wide">
