@@ -75,7 +75,6 @@ roles:
         photo: "Ashu_Kaushik.jpeg"
 
   - title: "Program Committee"
-    note: "More members coming soon"
     members:
       - name: "Abhinandan Prasad"
         affiliation: "IIT Palakkad"
