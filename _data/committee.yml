@@ -111,6 +111,16 @@ roles:
         affiliation: "KLAS"
       - name: "Venkata Keerthy"
         affiliation: "IIT Hyderabad"
+      - name: "Tam Chantem"
+        affiliation: "Virginia Tech, USA"
+      - name: "Ian Grey"
+        affiliation: "University of York, UK"
+      - name: "Fatima Anwar"
+        affiliation: "University of Massachusetts, USA"
+      - name: "Monowar Hasan"
+        affiliation: "Washington State University, USA"
+      - name: "Ashish Kashinath"
+        affiliation: "University of Illinois, USA"
 
 host:
   department: "Department of Computer Science and Engineering"
