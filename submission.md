@@ -43,6 +43,27 @@ permalink: /submission/
   </div>
 </section>
 
+<section class="section" aria-labelledby="anonymization-title">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">Double-Blind Review</p>
+      <h2 id="anonymization-title">Papers must be anonymized</h2>
+      <p>ISORC 2027 uses a <strong>double-blind peer review</strong> process. Both authors and reviewers remain anonymous to each other throughout the review process.</p>
+    </div>
+    <article class="prose notice-card" style="max-width:760px;">
+      <h3>Anonymization requirements</h3>
+      <ul class="topic-list">
+        <li><strong>Remove all author names and affiliations</strong> from the title page and throughout the manuscript.</li>
+        <li><strong>Avoid self-identifying references</strong> — do not refer to your own prior work in the first person (e.g., use "the authors of [X] showed…" rather than "we showed in [X]…").</li>
+        <li><strong>Remove acknowledgements</strong> that identify the authors, funding sources, or institutions.</li>
+        <li><strong>Anonymize supplementary material</strong> — any code, datasets, or appendices submitted alongside the paper must also be free of identifying information.</li>
+        <li><strong>Do not include author metadata</strong> in the PDF file properties.</li>
+      </ul>
+      <p style="margin-top:1rem;">Submissions that are not properly anonymized may be desk-rejected without review.</p>
+    </article>
+  </div>
+</section>
+
 <section class="section section--soft" aria-labelledby="ai-policy-title">
   <div class="container">
     <div class="section__header">
