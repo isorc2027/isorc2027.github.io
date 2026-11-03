@@ -120,6 +120,10 @@ roles:
         affiliation: "Washington State University, USA"
       - name: "Ashish Kashinath"
         affiliation: "University of Illinois, USA"
+      - name: "Saurabh Sharma"
+        affiliation: "Amazon Security"
+      - name: "Vinitha Reddy Gankidi"
+        affiliation: "Apple"
 
 host:
   department: "Department of Computer Science and Engineering"
