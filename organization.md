@@ -22,7 +22,7 @@ permalink: /organization/
 
     <div class="committee-grid">
       {% for role in site.data.committee.roles %}
-      {% if role.title == "Program Committee" %}
+      {% if role.title == "Program Committee(to be update shortly)" %}
       <article class="committee-card committee-card--wide">
         <h3>{{ role.title }}</h3>
         <ol class="pc-list">
