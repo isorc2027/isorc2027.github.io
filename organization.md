@@ -22,7 +22,7 @@ permalink: /organization/
 
     <div class="committee-grid">
       {% for role in site.data.committee.roles %}
-      {% if role.title == "Program Committee" or role.title == "program committee(to be updated shortly)" %}
+      {% if role.title == "Program Committee" or role.title == "Program Committee (to be updated shortly)" %}
       <article class="committee-card committee-card--wide">
         <h3>{{ role.title }}</h3>
         <ol class="pc-list">
@@ -39,8 +39,6 @@ permalink: /organization/
           <li>
             {% if person.photo and person.photo != "" %}
               <img class="person-photo" src="{{ '/assets/img/committee/' | append: person.photo | relative_url }}" alt="{{ person.name }}">
-            {% else %}
-              <div class="person-photo person-photo--placeholder"></div>
             {% endif %}
             <strong>{{ person.name }}</strong>
             <span>{{ person.affiliation }}</span>
