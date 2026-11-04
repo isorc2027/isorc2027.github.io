@@ -122,7 +122,7 @@ permalink: /call-for-papers/
     <ul class="topic-list">
       <li><strong>Regular Research Papers:</strong> Original work, 10 pages maximum plus two extra purchased pages for appendix and references.</li>
       <li><strong>Industrial Papers and Practitioner Reports:</strong> Maximum of 10 pages (with option to purchase 2 extra pages). Papers describing experience using real-time/distributed technology in application or tool development are an integral part of the ISORC program.</li>
-      <li><strong>Short Papers:</strong> Maximum 6 pages. Should contain enough information for the program committee to assess the novelty of the problem or approach, an important on-ramp for emerging researchers.</li>
+      <li><strong>Short Papers:</strong> Maximum 6 pages. Should contain enough information for the Program Committee (to be updated shortly) to assess the novelty of the problem or approach, an important on-ramp for emerging researchers.</li>
       <li><strong>Doctoral Symposium:</strong> Open to PhD students at any stage; a dedicated venue to present and get feedback on dissertation research.</li>
       <li><strong>Dissertation Digest:</strong> 2-page summaries of ongoing dissertation work, promoted directly to PhD advisors at target institutions.</li>
       <li><strong>Lightning Talks:</strong> 5-minute presentations for work-in-progress, tool demonstrations, and position papers — a low-barrier entry point for first-time ISORC participants.</li>
