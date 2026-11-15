@@ -124,6 +124,8 @@ roles:
         affiliation: "Amazon Security"
       - name: "Vinitha Reddy Gankidi"
         affiliation: "Apple"
+      - name: "Vaibhav Jain"
+        affiliation: "Staff Software Engineer, SoFi"
 
 host:
   department: "Department of Computer Science and Engineering"
