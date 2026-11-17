@@ -126,6 +126,8 @@ roles:
         affiliation: "Apple"
       - name: "Vaibhav Jain"
         affiliation: "Staff Software Engineer, SoFi"
+      - name: "Abhishek Dey"
+        affiliation: "RSC Solutions"
 
 host:
   department: "Department of Computer Science and Engineering"
