@@ -128,6 +128,10 @@ roles:
         affiliation: "Staff Software Engineer, SoFi"
       - name: "Abhishek Dey"
         affiliation: "RSC Solutions"
+      - name: "Gaurav Singh"
+        affiliation: "George Mason University"
+      - name: "Vipin Mishra"
+        affiliation: "Enterprise Architect | Generative AI, Enterprise Search & Cloud Platforms | Published Researcher & Peer Reviewer, Atlanta, Georgia, USA"
 
 host:
   department: "Department of Computer Science and Engineering"
