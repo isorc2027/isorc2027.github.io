@@ -131,7 +131,7 @@ roles:
       - name: "Gaurav Singh"
         affiliation: "George Mason University"
       - name: "Vipin Mishra"
-        affiliation: "Enterprise Architect | Generative AI, Enterprise Search & Cloud Platforms | Published Researcher & Peer Reviewer, Atlanta, Georgia, USA"
+        affiliation: "Atlanta, Georgia, USA"
 
 host:
   department: "Department of Computer Science and Engineering"
