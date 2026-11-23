@@ -36,7 +36,7 @@ permalink: /important-dates/
           {% for item in site.data.dates.milestones %}
           <tr{% if item.status == "extended" %} style="text-decoration:line-through;opacity:0.5;"{% endif %}>
             <th scope="row">{{ item.label }}</th>
-            <td>{{ item.date }}</td>
+            <td>{% if item.previous_date %}<del>{{ item.previous_date }}</del> -- {% endif %}{{ item.date }}</td>
             <td>
               {% if item.status == "confirmed" %}
                 <span class="status-pill">Confirmed</span>
